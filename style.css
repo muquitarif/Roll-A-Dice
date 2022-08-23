@@ -1,0 +1,94 @@
+body {
+    background-color: #202020;
+    margin: 50px;
+    color: white;
+    text-align: center;
+    font-family: Poppins;
+}
+
+header {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1 {
+    color: rgb(255, 166, 0);
+}
+
+header p {
+    color: lightgray;
+    font-size: 1rem;
+}
+
+.dice {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dice-image {
+    width: 100%;
+}
+
+#resultContainer {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#result {
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgba(82, 82, 82, 0.767);
+    margin: 0px 0px 30px 0px;
+}
+
+#roll-btn,
+#reset-btn {
+    font-family: poppins;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin: 5px;
+}
+
+#roll-btn {
+    padding: 12px 48px;
+    background-color: rgb(148, 0, 0);
+}
+
+#reset-btn {
+    padding: 10px 40px;
+    outline: 1px solid white;
+}
+
+#roll-btn:hover,
+#reset-btn:hover {
+    background-color: lightgray;
+    color: black;
+    outline: none;
+}
+
+footer {
+    color: gray;
+    font-size: small;
+    padding-top: 50px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: grey;
+}
+
+@media (max-width:400px) {
+    header p {
+        font-size: 0.8rem;
+    }
+}
