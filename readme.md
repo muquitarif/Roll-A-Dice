@@ -1,5 +1,5 @@
 # Roll A Dice
-Want to play Ludo or any other board game and don't have a dice? Use an online dice that is one click away in your phone and enjoy your game without any hassle.
+Want to play Ludo or any other board game and don't have a dice? Use an online dice that is few clicks away in your phone and enjoy your game without any hassle.
 
 ## Live Site URL
 https://roll-a-dice-ten.vercel.app/
